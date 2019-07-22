@@ -5,11 +5,11 @@
   <body style='margin : 0px; overflow: hidden;'>
     <a-scene stats embedded arjs>
         <a-assets>
-            <a-asset-item id="buildit" src="buildit.obj"></a-asset-item>
+            <a-asset-item id="buildit" src="./buildit.obj"></a-asset-item>
         </a-assets>
       <a-marker preset="hiro">
                 
-                <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#b22222"></a-plane>
+                <a-plane position="0 0 -4" rotation="-20 0 0" width="4" height="4" color="#b22222"></a-plane>
                 <a-entity gltf-model="#buildit" rotation= "180 0 0"></a-entity>
       </a-marker>
       <a-entity camera></a-entity>
